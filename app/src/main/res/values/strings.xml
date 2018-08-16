@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ThemeProject</string>
+    <string name="h1_heading">H1 Heading</string>
+    <string name="h2_heading">H2 Heading</string>
+    <string name="h3_heading">H3 Heading</string>
+    <string name="h4_heading">H4 Heading</string>
+    <string name="h5_heading">H5 Heading</string>
+    <string name="h6_heading">H6 Heading</string>
+
+    <string name="t1_body">T1 Body</string>
+    <string name="t2_body">T2 Body</string>
+    <string name="t3_body">T3 Body</string>
+
+</resources>

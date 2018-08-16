@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="themeproject__Theme.NewProduct">
+        <item name="themeproject__themeName">@string/themeproject__newproduct_theme_name</item>
+        <item name="themeproject__themePrimaryColor">@color/themeproject__pink</item>
+        <item name="themeproject__themeTextColor">@color/themeproject__school_bus_yellow</item>
+    </style>
+</resources>

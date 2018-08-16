@@ -1,0 +1,60 @@
+ext {
+    ENVIRONMENT_PARAM = "env"
+    ENABLE_STANDARD_THEME_PARAM = "standard_theme"
+    ENABLE_PRODUCT_A_THEME_PARAM = "product_a_theme"
+    DEFAULT_APP_NAME = "Tesco"
+    DEFAULT_STANDARD_THEME = true
+    DEFAULT_PRODUCT_A_THEME = true
+}
+
+class Config {
+    enum BuildType {
+        RELEASE, DEBUG
+    }
+
+    String environment
+    boolean isProd
+    boolean isStandardThemeEnabled
+    boolean isProductAThemeEnabled
+    String appName
+    Properties envProperties
+    Properties commonProperties
+}
+
+ext {
+
+    def hasStandardThemeParam = project.hasProperty(ENABLE_STANDARD_THEME_PARAM)
+    def hasProductAThemeParam = project.hasProperty(ENABLE_PRODUCT_A_THEME_PARAM)
+
+    config = new Config()
+    config.commonProperties = new Properties()
+    //config.commonProperties.load(new FileInputStream(project.file(("config/config.properties"))))
+
+    if (hasStandardThemeParam) config.isStandardThemeEnabled = standard_theme.toBoolean() else config.isStandardThemeEnabled = DEFAULT_STANDARD_THEME
+    if (hasProductAThemeParam) config.isProductAThemeEnabled = product_a_theme.toBoolean() else config.isProductAThemeEnabled = DEFAULT_PRODUCT_A_THEME
+
+//    propertiesFilename += ".properties"
+//    config.envProperties.load(new FileInputStream(project.file((basePath + propertiesFilename))))
+//
+//    config.appName = config.envProperties.app_name
+    //printLog(config)
+}
+
+def printLog(Config config) {
+    println("--------------------------------------------------------------------------------------------------------------")
+    println("|    App name = ${config.envProperties.getProperty("app_name")}")
+    println("|    Scan To Remove = ${config.isStandardThemeEnabled}")
+    println("|    Exit Poster = ${config.isProductAThemeEnabled}")
+    println("|    Common Properties :")
+    printProperties(config.commonProperties)
+    printProperties(config.envProperties)
+    println("--------------------------------------------------------------------------------------------------------------")
+}
+
+def printProperties(Properties properties) {
+    for (String key : properties.stringPropertyNames()) {
+        if (isValidKey(key)) {
+            println("|        " + key + " = " + properties.getProperty(key))
+        }
+    }
+}

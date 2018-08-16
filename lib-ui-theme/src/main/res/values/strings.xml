@@ -1,0 +1,4 @@
+<resources>
+    <string name="themeproject__default_theme_name">Default Theme</string>
+    <string name="themeproject__newproduct_theme_name">New Product Theme</string>
+</resources>

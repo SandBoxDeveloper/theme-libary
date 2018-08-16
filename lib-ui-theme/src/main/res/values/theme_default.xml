@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="themeproject__Theme.Default">
+        <item name="themeproject__themeName">@string/themeproject__default_theme_name</item>
+        <item name="themeproject__themePrimaryColor">@color/themeproject__japanese_laurel</item>
+        <item name="themeproject__themeTextColor">@color/themeproject__union_red</item>
+    </style>
+</resources>

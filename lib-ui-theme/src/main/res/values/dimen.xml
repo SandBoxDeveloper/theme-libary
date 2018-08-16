@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="themeproject__text_h1">32sp</dimen>
+    <dimen name="themeproject__text_h2">28sp</dimen>
+    <dimen name="themeproject__text_h3">24sp</dimen>
+    <dimen name="themeproject__text_h4">20sp</dimen>
+
+    <dimen name="themeproject__text_t1">20sp</dimen>
+    <dimen name="themeproject__text_t2">16sp</dimen>
+    <dimen name="themeproject__text_t3">14sp</dimen>
+</resources>

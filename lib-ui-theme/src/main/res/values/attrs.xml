@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="themeproject__themeName" format="reference" />
+    <attr name="themeproject__themePrimaryColor" format="reference|color" />
+    <attr name="themeproject__themeTextColor" format="reference|color" />
+    <attr name="themeproject__themeBodyFont" format="reference" />
+    <attr name="themeproject__themeToolbar" format="reference" />
+    <attr name="themeproject__themeToolbarTitle" format="reference" />
+
+</resources>

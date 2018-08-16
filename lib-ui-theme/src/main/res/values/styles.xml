@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="themeproject__Theme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <!-- *************************************************************************************** -->
+    <!-- TEXT STYLES -->
+    <!-- *************************************************************************************** -->
+    <style name="themeproject__Theme.Text" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/themeproject__themeTextColor</item>
+    </style>
+
+    <!-- Headers -->
+
+    <style name="themeproject__Theme.Text.H1">
+        <item name="android:textSize">@dimen/themeproject__text_h1</item>
+    </style>
+
+    <style name="themeproject__Theme.Text.H2">
+        <item name="android:textSize">@dimen/themeproject__text_h2</item>
+    </style>
+
+    <style name="themeproject__Theme.Text.H3">
+        <item name="android:textSize">@dimen/themeproject__text_h3</item>
+    </style>
+
+    <style name="themeproject__Theme.Text.H4">
+        <item name="android:textSize">@dimen/themeproject__text_h4</item>
+    </style>
+
+    <!-- Text Body -->
+
+    <style name="themeproject__Theme.Text.T1">
+        <item name="android:textSize">@dimen/themeproject__text_t1</item>
+    </style>
+
+    <style name="themeproject__Theme.Text.T2">
+        <item name="android:textSize">@dimen/themeproject__text_t2</item>
+    </style>
+
+    <style name="themeproject__Theme.Text.T3">
+        <item name="android:textSize">@dimen/themeproject__text_t3</item>
+    </style>
+
+    <!-- *************************************************************************************** -->
+    <!-- TOOLBAR -->
+    <!-- *************************************************************************************** -->
+
+    <style name="themeproject__Theme.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/android:actionBarSize</item>
+        <item name="android:background">?attr/themeproject__themePrimaryColor</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="titleTextAppearance">@style/themeproject__Theme.Text.H4</item>
+    </style>
+
+</resources>
