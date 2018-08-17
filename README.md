@@ -1,4 +1,7 @@
-Theme Project is a compile time theme library demo project that illustrates how to change your apps' color schemes easily.
+Theme Project is an android app that changes custom themes at compile time.
+
+# Overview
+
 
 # TODO Design
 
