@@ -7,4 +7,7 @@
     <attr name="themeproject__themeToolbar" format="reference" />
     <attr name="themeproject__themeToolbarTitle" format="reference" />
 
+    <attr name="themeproject__themePrimaryButton" format="reference" />
+    <attr name="themeproject__themePrimaryButtonLarge" format="reference" />
+
 </resources>

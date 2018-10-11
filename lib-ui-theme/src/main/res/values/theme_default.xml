@@ -1,7 +1,24 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <style name="themeproject__Theme.Default">
         <item name="themeproject__themeName">@string/themeproject__default_theme_name</item>
         <item name="themeproject__themePrimaryColor">@color/themeproject__japanese_laurel</item>
         <item name="themeproject__themeTextColor">@color/themeproject__union_red</item>
+        <item name="themeproject__themePrimaryButton">@style/themeproject__Theme.Default.Button</item>
+    </style>
+
+    <style name="themeproject__Theme.Default.Button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/themeproject__text_t3</item>
+        <item name="android:importantForAccessibility">yes</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/themeproject__selector_button_primary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:elevation" tools:targetApi="lollipop">0dp</item>
+        <item name="android:paddingStart">40dp</item>
+        <item name="android:paddingEnd">40dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">9dp</item>
     </style>
 </resources>

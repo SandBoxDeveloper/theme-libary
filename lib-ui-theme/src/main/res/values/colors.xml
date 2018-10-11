@@ -4,4 +4,10 @@
     <color name="themeproject__pink">#ff464b</color>
     <color name="themeproject__union_red">#cf142b</color>
     <color name="themeproject__school_bus_yellow">#fcd700</color>
+    <color name="themeproject__union_blue">#00247d</color>
+    <color name="themeproject__union_blue_40">#6600247d</color>
+    <color name="themeproject__silver">#CCCCCC</color>
+    <color name="themeproject__endeavour">#00539F</color>
+    <color name="themeproject__endeavour_40">#6700539F</color>
+    <color name="themeproject__deep_cerulean">#007EB3</color>
 </resources>

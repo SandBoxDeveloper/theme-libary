@@ -11,4 +11,6 @@
     <string name="t2_body">T2 Body</string>
     <string name="t3_body">T3 Body</string>
 
+    <string name="button_text">Button</string>
+
 </resources>

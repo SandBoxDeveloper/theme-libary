@@ -54,4 +54,10 @@
         <item name="titleTextAppearance">@style/themeproject__Theme.Text.H4</item>
     </style>
 
+    <!-- *************************************************************************************** -->
+    <!-- BUTTON -->
+    <!-- *************************************************************************************** -->
+
+    <style name="themeproject__Theme.Button">
+    </style>
 </resources>
