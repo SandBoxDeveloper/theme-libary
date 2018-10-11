@@ -14,6 +14,6 @@ This Library provides a simple, easy to use, Android UI component library.
 
 ## Integrating into your app
 
-Check out the [Changelog](./doc/Releases.md) to see what each release contains.
+Check out the [Changelog](app/doc/Releases.md) to see what each release contains.
 
 The repository includes a Sample app, showing usage of all functionality.
